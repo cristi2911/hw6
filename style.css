@@ -1,0 +1,57 @@
+.class1 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+
+    padding-left: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 16px;
+
+    border: 1px solid rgb(0, 0, 0);
+}
+
+
+.class2 {
+    p1{
+        color:yellow
+    }
+}
+
+
+.class3 {
+    width: 75px;
+    height: 75px;
+    border: 1px solid black;
+}
+.class3:hover {
+    border-color: red;
+}
+
+
+.class4 {
+    height: 50px;
+    width: 250px;
+    background-color: aqua;
+    position: relative;
+}
+.class5 {
+    width: 25%;
+    height: 50%;
+    position: absolute;
+    background-color: blueviolet;
+
+}
+
+
+
+.title::before {
+    content: "Inainte";
+    background-color: rebeccapurple;
+}
+.title::after {
+    content: "Dupa";
+    background-color: rebeccapurple;
+
+}
